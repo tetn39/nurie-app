@@ -19,7 +19,7 @@ const ColoringPage = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-2xl font-bold mb-4">塗り絵アプリ</h1>
+      <h1 className="text-2xl font-bold mb-4 text-black">塗り絵アプリ</h1>
       <SketchPicker color={selectedColor} onChangeComplete={handleColorChange} />
       <svg
         width="200"
