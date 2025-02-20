@@ -18,11 +18,18 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="ja">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <header>
+        </header>
+        <main>
+          {children}
+        </main>
+        <footer>
+          <p>© 2025 Coloring App. All rights reserved.</p>
+        </footer>
       </body>
     </html>
   );
